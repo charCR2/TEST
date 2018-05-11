@@ -1,4 +1,6 @@
 # reader
+作者：陈睿
+创建时间：2018年5月11日
 
 > a reader project
 
