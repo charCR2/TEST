@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <top></top>
+    <sidebar></sidebar>
     <router-view/>
   </div>
 </template>
 
 <script>
+import top from './components/pageComponents/top'
+import  sidebar from './components/pageComponents/sidebar'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {top,sidebar}
 }
 </script>
 
@@ -16,8 +20,11 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 700px;
 }
+html,body{
+  height:100%;
+  background-color: rgb(238, 238, 238);
+  }
 </style>
