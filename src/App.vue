@@ -1,21 +1,30 @@
 <template>
   <div id="app">
-    <top></top>
-    <sidebar></sidebar>
-    <router-view/>
+    <Row class="pages">
+      <top></top>
+      <sidebar></sidebar>
+      <router-view/>
+      <foot></foot>
+    </Row>
   </div>
 </template>
 
 <script>
 import top from './components/pageComponents/top'
 import  sidebar from './components/pageComponents/sidebar'
+import pages from './components/pages'
+import foot from './components/pageComponents/footer'
 export default {
   name: 'App',
-  components: {top,sidebar}
+  components: {top,sidebar,pages,foot}
 }
 </script>
 
 <style>
+  .pages{
+    background: #fff;
+    min-height:700px;
+  }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,6 +34,6 @@ export default {
 }
 html,body{
   height:100%;
-  background-color: rgb(238, 238, 238);
+
   }
 </style>

@@ -6,7 +6,7 @@
     <div class="wrapper-header-nav-list">
     <MenuItem name="1">
       <Icon type="ios-paper"></Icon>
-      内容 &nbsp
+      主题 &nbsp
     </MenuItem>
     <Submenu name="2">
       <template slot="title">
@@ -14,18 +14,19 @@
         用户
       </template>
       <MenuGroup title="使用">
-        <MenuItem name="3-1">新增和启动</MenuItem>
-        <MenuItem name="3-2">活跃分析</MenuItem>
-        <MenuItem name="3-3">时段分析</MenuItem>
+        <MenuItem name="3-1">我的书屋</MenuItem>
+        <MenuItem name="3-2">搜索书籍</MenuItem>
+        <MenuItem name="3-3">个人信息</MenuItem>
+        <MenuItem name="3-4">添加书签</MenuItem>
       </MenuGroup>
-      <MenuGroup title="留存">
-        <MenuItem name="3-4">用户留存</MenuItem>
-        <MenuItem name="3-5">流失用户</MenuItem>
+      <MenuGroup title="系统">
+        <MenuItem name="3-5">设置</MenuItem>
+        <MenuItem name="3-6">退出</MenuItem>
       </MenuGroup>
     </Submenu>
     <MenuItem name="3">
       <Icon type="settings"></Icon>
-     设置 &nbsp
+     关于 &nbsp
     </MenuItem>
 </div>
       </div>
