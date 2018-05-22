@@ -21,7 +21,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-##更新日志
+#更新日志
 ``` bash
 2018年5月19日
 完成头插件，尾插件，和侧边栏插件
